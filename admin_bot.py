@@ -278,7 +278,7 @@ async def order_decision_cb(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if action == "appr":
         db.update_order_status(order_id, "approved")
         db.decrement_stock(order["item_id"])
-        msg = f"🎉 ការទូទាត់សម្រាប់ {item['name']} ត្រូវបានអនុម័ត! អរគុណដែលទិញនៅ Uchiro Store 🇰🇭"
+        msg = f"🎉 ការទូទាត់សម្រាប់ {item['name']} ត្រូវបាន Comfirm! អរគុណដែលទិញនៅ Zaki Store 🇰🇭"
         if item["delivery_info"]:
             msg += f"\n\n🔑 {item['delivery_info']}"
         else:
