@@ -4,7 +4,7 @@ ADMIN_BOT_TOKEN = os.getenv("ADMIN_BOT_TOKEN", "8929358983:AAG8_6ZDZcjgnDWPPTd3U
 STORE_BOT_TOKEN = os.getenv("STORE_BOT_TOKEN", "8987080415:AAGeICGQQlUCyctIsdQUxGLlwS93lLVrT4Q")
 
 # Owner(s) - can add/remove other sellers. Comma separated telegram user ids.
-OWNER_IDS = [int(x) for x in os.getenv("OWNER_IDS", "8656857571").split(",") if x.strip().isdigit()]
+OWNER_IDS = [int(x) for x in os.getenv("OWNER_IDS", "8656857571,6594079594").split(",") if x.strip().isdigit()]
 
 STORE_NAME = "Zaki Store 🇰🇭"
 CURRENCY = "$"
