@@ -6,9 +6,9 @@ STORE_BOT_TOKEN = os.getenv("STORE_BOT_TOKEN", "8987080415:AAGeICGQQlUCyctIsdQUx
 # Owner(s) - can add/remove other sellers. Comma separated telegram user ids.
 OWNER_IDS = [int(x) for x in os.getenv("OWNER_IDS", "8656857571").split(",") if x.strip().isdigit()]
 
-STORE_NAME = "Uchiro Store 🇰🇭"
+STORE_NAME = "Zaki Store 🇰🇭"
 CURRENCY = "$"
 CATEGORIES = ["Account", "Fruit", "Gamepass"]
 DB_PATH = os.getenv("DB_PATH", "store.db")
 
-ADMIN_CONTACT_USERNAME = "noreakyout"  # @noreakyout
+ADMIN_CONTACT_USERNAME = "Zakilukma"  # @Zakilukma
