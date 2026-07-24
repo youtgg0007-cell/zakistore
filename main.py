@@ -29,7 +29,7 @@ async def main():
     await admin_app.updater.start_polling()
     await store_app.updater.start_polling()
 
-    logger.info("Both Uchiro Store bots are running. Press Ctrl+C to stop.")
+    logger.info("Both Zaki Store bots are running. Press Ctrl+C to stop.")
 
     stop_event = asyncio.Event()
     try:
